@@ -1,0 +1,133 @@
+@font-face {
+  font-family: futurapt;
+  src: url("../../assets/fonts/FuturaPT-Medium.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: futurapt;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.bodydiv {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: futurapt;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.readyside {
+  width: 33%;
+  background-color: #fbc344;
+  float: left;
+  height: 100%;
+}
+.inworkside {
+  width: 34%;
+  background-color: #fbc344;
+  float: left;
+  height: 100%;
+}
+.ttside {
+  width: 34%;
+  background-color: #fbc344;
+  float: left;
+  height: 100%;
+}
+
+.timetoeat {
+  position: absolute;
+  bottom: 0; /* Выровнять по низу */
+  left: 0;
+  width: 100%; /* Если нужно, чтобы элемент занимал всю ширину */
+  padding: 10px;
+}
+.rightside {
+  width: 33%;
+  background-image: url(../../assets/foto/1080x1920-BotPizzaDay.jpg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: bottom;
+  float: left;
+
+  height: 100%;
+  background-color: #fbc344;
+}
+.title {
+  width: 84%;
+  text-align: center;
+  background-color: white;
+  margin-left: 8%;
+  height: 12%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 8%;
+  margin-top: 8%;
+  font-weight: bold;
+}
+.titlestyle {
+  font-size: 200%;
+  padding-top: 4%;
+  text-align: center;
+}
+.ordersready {
+  height: 76%;
+  width: 84%;
+  background-color: white;
+  margin-left: 8%;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+.ordersinwork {
+  position: relative;
+  height: 75.6%;
+  width: 84%;
+  background-color: white;
+  margin-left: 8%;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+.ordernumberinwork {
+  width: 48%;
+  float: left;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 600;
+  color: #e2211c;
+  height: 15%;
+}
+.orderreadybig {
+  height: 25%;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  text-align: start;
+  margin-left: 10%;
+  font-size: 5em;
+  font-weight: 600;
+}
+.ordernumberready {
+  width: 100%;
+  float: left;
+  text-align: start;
+  font-size: 2em;
+  font-weight: 600;
+  color: black;
+  height: 12%;
+  margin-left: 15%;
+}

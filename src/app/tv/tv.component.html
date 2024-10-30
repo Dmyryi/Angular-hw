@@ -1,0 +1,37 @@
+<body>
+  <div class="bodydiv" *ngIf="isloaded">
+    <div class="inworkside">
+      <div class="title">
+        <div class="titlestyle">ГОТУЄМО</div>
+      </div>
+      <div class="ordersinwork">
+        <div *ngFor="let orderqueue of erporders.queue">
+          <div class="ordernumberinwork">{{ orderqueue }}</div>
+        </div>
+        <div class="timetoeat">
+          <div class="titlestyle">
+            Час очікування:{{ erporders.expectedwaitingtime }}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="readyside">
+      <div class="title">
+        <div class="titlestyle">ГОТОВІ</div>
+      </div>
+      <div class="ordersready">
+        <div *ngFor="let orderready1 of erporders.ready">
+          <div class="orderreadybig">{{ orderready1 }}</div>
+        </div>
+        <div *ngFor="let orderready2 of erporders.ready">
+          <div class="ordernumberready">{{ orderready2 }}</div>
+        </div>
+      </div>
+    </div>
+    <div class="rightside">
+      <div class="title">
+        <div class="titlestyle">ПІЦЕРІЯ №{{ erporders.TT }}</div>
+      </div>
+    </div>
+  </div>
+</body>
