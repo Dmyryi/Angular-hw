@@ -6,7 +6,7 @@ import { Orderstable } from './orderstable';
   providedIn: 'root',
 })
 export class ErpService {
-  urlonwas: string = 'http://23.88.81.210:8088/bond/hs/onsiteapi/infoontv';
+  urlonwas: string = '/bond/hs/onsiteapi/infoontv';
   username = 'admin';
   password = '314159';
 
@@ -25,4 +25,3 @@ export class ErpService {
     return this.http.post<Orderstable>(this.urlonwas, tempBody, { headers });
   }
 }
-// так я наче все правильно зробив?) просто в постмані тепер показує 200, а переходжу на сайт і всеодно усе біле

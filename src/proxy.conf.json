@@ -1,0 +1,7 @@
+{
+  "/bond": {
+    "target": "http://thingproxy.freeboard.io/http://23.88.81.210:8088",
+    "secure": false,
+    "changeOrigin": true
+  }
+}
